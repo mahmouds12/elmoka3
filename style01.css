@@ -1,0 +1,120 @@
+	
+body{
+	background-color:#0C090A;
+}
+	
+
+    ul{
+        padding: 10px;
+        list-style: none;
+        background: #FDD017;
+    }
+    ul li{
+		font: 16px BankGothic Md BT;
+		font-size:large;
+        display: inline-block;
+        position: relative;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 125px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+	p
+	{
+		color: #D1D0CE;
+	}
+		h3
+	{
+		color: #FEFCFF;
+	}
+	
+	.navbar-brand {
+    float: left;
+    height: 80px;
+    padding: 5px 5px;
+	}
+	
+	.yellowParagraph
+	{
+		font: 18px calibri Md BT;
+		color: #FDD017
+	}
+	
+	#footer{
+	position:absolute;
+	 bottom:0;
+	 left:0;
+	 text-align:center;
+	 width : 1500px;
+	}
+	#header{
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 width:1500px;
+	}
+		
+	#footerlist{
+	padding: 0px;
+	list-style: none;
+	background: #FDD017;
+	}
+	
+	#content {
+    margin-top: 100px;}
+	
+	.BigLinks{
+		font: 20px BankGothic Md BT;
+		font-size:x-large;
+		color: #FDD017
+	}
+	
+	/* unvisited link */
+	a:link {
+		text-decoration: none;
+	}
+
+	/* visited link */
+	a:visited {
+		text-decoration: none;
+	}
+
+	/* mouse over link */
+	a:hover {
+		text-decoration: none;
+	}
+
+	/* selected link */
+	a:active {
+		text-decoration: none;
+	}
+	
+	.References{
+		text-align:right;
+		background-color:#0C090A; 
+		color:#D1D0CE;
+		width : 1500px;
+	}
+	
+</style>
